@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+
+.text {
+  margin-bottom: 1em;
+}
+
+.button {
+  transition: transform 150ms;
+  border: 1px solid;
+  border-radius: .2em;
+  padding: .5em 1em;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
