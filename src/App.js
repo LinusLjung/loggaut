@@ -21,6 +21,9 @@ class App extends Component {
         isLoading: false
       });
     }, 1500);
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event: 'logout'});
   };
 
   render() {
